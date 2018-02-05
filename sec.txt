@@ -1,0 +1,10 @@
+--SQL Sever
+Use master
+Select name,password
+from syslogins
+where password is null
+order by name
+
+--windows 安全
+运行-secpol.msc命令
+运行-gpedit.msc命令
